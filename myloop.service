@@ -1,0 +1,10 @@
+[Unit]
+Description=My loop service
+
+[Service]
+ExecStart=/usr/local/bin/myloop.sh
+Restart=always
+Slice=mycustom.slice
+
+[Install]
+WantedBy=multi-user.target

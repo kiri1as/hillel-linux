@@ -1,0 +1,6 @@
+[Unit]
+Description=My Custom Slice
+
+[Slice]
+CPUQuota=1%
+MemoryMax=1M
