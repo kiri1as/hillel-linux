@@ -5,6 +5,7 @@ Description=My loop service
 ExecStart=/usr/local/bin/myloop.sh
 Restart=always
 Slice=mycustom.slice
+Delegate=yes
 
 [Install]
 WantedBy=multi-user.target
